@@ -6,9 +6,9 @@ without specifying their concrete classes.
 from abc import ABCMeta, abstractmethod
 import unittest
 
-_suits = ("spades", "hearts", "diamonds", "clubs")
-_36_deck = ("6", "7", "8", "9", "10", "Ace", "King", "Queen", "Jack")
-_52_deck = ("2", "3", "4", "5") + _36_deck
+_suits = ["spades", "hearts", "diamonds", "clubs"]
+_36_deck = ["6", "7", "8", "9", "10", "Ace", "King", "Queen", "Jack"]
+_52_deck = ["2", "3", "4", "5"] + _36_deck
 
 
 class Card(object):
